@@ -57,10 +57,10 @@ No disponible (puedes usar la versión Android)
 
 ```bash id="posinstall02"
 # Clonar repositorio
-git clone https://github.com/tu-usuario/pos-laravel.git
+git clone https://github.com/isairey/SisVentasLaravel.git
 
 # Entrar al proyecto
-cd pos-laravel
+cd SisVentasLaravel
 
 # Instalar dependencias
 composer install
