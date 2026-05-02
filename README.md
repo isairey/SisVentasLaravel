@@ -1,52 +1,103 @@
-## POS con Laravel open source
-Pequeño punto de venta con Laravel 7.
-![Bienvenida al sistema de ventas escrito en Laravel](https://parzibyte.me/blog/wp-content/uploads/2020/03/Inicio-Punto-de-venta-con-Laravel-usuarios-y-clientes.png)
+# 🧾 Sistema POS con Laravel (Open Source)
 
-## Características
+Sistema de punto de venta (POS) desarrollado con **Laravel 7**, ideal para pequeños negocios que necesitan gestionar ventas, inventario y clientes de forma sencilla y eficiente.
 
--   Utiliza Laravel en su última versión (a la fecha de escribir esto)
--   Bootstrap es usado para los estilos
--   Iconos de FontAwesome
--   Sistema totalmente responsivo, es decir, funciona en móviles, tabletas y computadoras
--   Control de inventario con precio de venta, precio de compra, utilidad, existencia, etcétera
--   Opción para realizar venta, agregando productos
--   Comprobación de existencia de inventario al vender
--   Resta de existencia al vender
--   Impresión de tickets de venta en impresora térmica
--   Reporte de ventas
--   Inicio de sesión y registro de usuarios
--   App para Android
+---
 
-## Tutorial
+## 🌐 Vista previa
 
-[Ver tutorial en mi blog](https://parzibyte.me/blog/2020/03/06/sistema-ventas-laravel-bootstrap-mysql-open-source/)
+![Sistema POS Laravel](https://parzibyte.me/blog/wp-content/uploads/2020/03/Inicio-Punto-de-venta-con-Laravel-usuarios-y-clientes.png)
 
-[Parte 2 con clientes y usuarios](https://parzibyte.me/blog/2020/03/10/laravel-pos-clientes-usuarios/)
+---
+
+## 🚀 Características
+
+- ⚙️ Desarrollado con **Laravel 7**
+- 🎨 Interfaz con **Bootstrap**
+- ⭐ Iconos con **FontAwesome**
+- 📱 Diseño **responsive** (móvil, tablet y escritorio)
+- 📦 Control de inventario:
+  - Precio de compra
+  - Precio de venta
+  - Utilidad
+  - Existencias
+- 🛒 Sistema de ventas:
+  - Agregar productos fácilmente
+  - Validación de stock
+  - Actualización automática de inventario
+- 🧾 Impresión de tickets en impresora térmica
+- 📊 Reportes de ventas
+- 🔐 Sistema de autenticación (login/registro)
+- 📱 Aplicación móvil Android conectada al sistema
+
+---
+
+## 🖼️ Ejemplo de ticket
 
 ![Ticket de venta](https://parzibyte.me/blog/wp-content/uploads/2020/03/Ticket-de-venta-impreso-desde-PDV-con-Laravel.jpg)
 
-**By Parzibyte**
+---
 
-## Descargar app
-He creado una app que consume la API de este sistema. 
-- Usuarios de Android: https://github.com/parzibyte/sistema_ventas_laravel/raw/master/PuntoDeVenta1.0.apk
-- Usuarios de iOS: Conseguir un dispositivo con Android y descargar la versión para Android
-  
+## 📚 Tutorial
 
-## Créditos de las imágenes
+Puedes aprender a usar y configurar este sistema en los siguientes enlaces:
 
-  
+- 📖 [Tutorial completo](https://parzibyte.me/blog/2020/03/06/sistema-ventas-laravel-bootstrap-mysql-open-source/)
+- 📖 [Parte 2 (clientes y usuarios)](https://parzibyte.me/blog/2020/03/10/laravel-pos-clientes-usuarios/)
 
-**Productos:** Icons made by [Icongeek26](https://www.flaticon.com/authors/icongeek26  "Icongeek26") from [www.flaticon.com](https://www.flaticon.com/  "Flaticon")
+---
 
-**Vender:** Icons made by [Freepik](https://www.flaticon.com/authors/freepik  "Freepik") from [www.flaticon.com](https://www.flaticon.com/  "Flaticon")
+## 📲 Aplicación móvil
 
-**Ventas:** Icons made by [Eucalyp](https://www.flaticon.com/authors/eucalyp  "Eucalyp") from [www.flaticon.com](https://www.flaticon.com/  "Flaticon")
+Este sistema cuenta con una app que consume su API:
 
-**Soporte:** Icons made by [dDara](https://www.flaticon.com/authors/ddara  "dDara") from [www.flaticon.com](https://www.flaticon.com/  "Flaticon")
+- 🤖 Android:  
+https://github.com/parzibyte/sistema_ventas_laravel/raw/master/PuntoDeVenta1.0.apk  
 
-**Acerca de:** Icons made by [inipagistudio](https://www.flaticon.com/authors/inipagistudio  "inipagistudio") from [www.flaticon.com](https://www.flaticon.com/  "Flaticon")
+- 🍎 iOS:  
+No disponible (puedes usar la versión Android)
 
-**Usuarios:** Icons made by [Freepik](https://www.flaticon.com/authors/freepik  "Freepik") from [www.flaticon.com](https://www.flaticon.com/  "Flaticon")
+---
 
-**Clientes:** Icons made by [Freepik](https://www.flaticon.com/authors/freepik "Freepik") from [www.flaticon.com](https://www.flaticon.com/ "Flaticon")
+## 🧱 Tecnologías utilizadas
+
+- **Laravel 7**
+- **PHP**
+- **MySQL**
+- **Bootstrap**
+- **JavaScript**
+- **FontAwesome**
+
+---
+
+## ⚙️ Instalación
+
+```bash id="posinstall02"
+# Clonar repositorio
+git clone https://github.com/tu-usuario/pos-laravel.git
+
+# Entrar al proyecto
+cd pos-laravel
+
+# Instalar dependencias
+composer install
+
+# Configurar entorno
+cp .env.example .env
+
+# Generar clave
+php artisan key:generate
+
+# Ejecutar migraciones
+php artisan migrate
+
+# Iniciar servidor
+php artisan serve
+📌 Requisitos
+PHP >= 7.2
+Composer
+MySQL o MariaDB
+Servidor local (XAMPP, Laragon, etc.)
+👨‍💻 Autor
+
+Isai Reyes
