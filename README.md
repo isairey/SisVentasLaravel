@@ -35,7 +35,7 @@ Sistema de punto de venta (POS) desarrollado con **Laravel 7**, ideal para peque
 Este sistema cuenta con una app que consume su API:
 
 - 🤖 Android:  
-https://github.com/parzibyte/sistema_ventas_laravel/raw/master/PuntoDeVenta1.0.apk  
+https://github.com/isairey/SisVentasLaravel/raw/main/PuntoDeVenta1.0.apk  
 
 - 🍎 iOS:  
 No disponible (puedes usar la versión Android)
