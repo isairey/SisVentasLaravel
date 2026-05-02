@@ -58,29 +58,43 @@ No disponible (puedes usar la versión Android)
 ```bash id="posinstall02"
 # Clonar repositorio
 git clone https://github.com/isairey/SisVentasLaravel.git
-
+```
 # Entrar al proyecto
+```
 cd SisVentasLaravel
-
+```
 # Instalar dependencias
+```
 composer install
-
+```
 # Configurar entorno
+```
 cp .env.example .env
-
+```
 # Generar clave
+```
 php artisan key:generate
-
+```
 # Ejecutar migraciones
+```
 php artisan migrate
-
+```
 # Iniciar servidor
+```
 php artisan serve
-📌 Requisitos
-PHP >= 7.2
-Composer
-MySQL o MariaDB
-Servidor local (XAMPP, Laragon, etc.)
-👨‍💻 Autor
+```
 
-Isai Reyes
+---
+
+## 📌 Requisitos
+
+- PHP >= 7.2
+- Composer
+- MySQL o MariaDB
+- Servidor local (XAMPP, Laragon, etc.)
+
+---
+
+## 👨‍💻 Autor
+
+**Isai Reyes**
