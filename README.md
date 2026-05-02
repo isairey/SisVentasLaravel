@@ -4,12 +4,6 @@ Sistema de punto de venta (POS) desarrollado con **Laravel 7**, ideal para peque
 
 ---
 
-## 🌐 Vista previa
-
-![Sistema POS Laravel](https://parzibyte.me/blog/wp-content/uploads/2020/03/Inicio-Punto-de-venta-con-Laravel-usuarios-y-clientes.png)
-
----
-
 ## 🚀 Características
 
 - ⚙️ Desarrollado con **Laravel 7**
@@ -32,20 +26,9 @@ Sistema de punto de venta (POS) desarrollado con **Laravel 7**, ideal para peque
 
 ---
 
-## 🖼️ Ejemplo de ticket
 
-![Ticket de venta](https://parzibyte.me/blog/wp-content/uploads/2020/03/Ticket-de-venta-impreso-desde-PDV-con-Laravel.jpg)
 
----
 
-## 📚 Tutorial
-
-Puedes aprender a usar y configurar este sistema en los siguientes enlaces:
-
-- 📖 [Tutorial completo](https://parzibyte.me/blog/2020/03/06/sistema-ventas-laravel-bootstrap-mysql-open-source/)
-- 📖 [Parte 2 (clientes y usuarios)](https://parzibyte.me/blog/2020/03/10/laravel-pos-clientes-usuarios/)
-
----
 
 ## 📲 Aplicación móvil
 
